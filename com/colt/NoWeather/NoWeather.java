@@ -11,7 +11,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class NoWeather extends JavaPlugin implements Listener {
 
-	private List<String> worlds = new ArrayList<String>();;
+	private List<String> worlds = new ArrayList<String>();
 
 	public void onEnable() {
 		Bukkit.getPluginManager().registerEvents(this, this);
